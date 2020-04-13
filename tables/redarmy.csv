@@ -1,0 +1,3 @@
+红军编号,描述,脚本,模型文件,轨迹文件
+id,description,script,model_file,traj_file
+1,直升机,scripts/aircraft.lua,object/z_19/z19.FLT,
