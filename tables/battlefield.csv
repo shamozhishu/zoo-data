@@ -1,0 +1,3 @@
+战场编号,描述,自由度,武器,特效,红军,蓝军,盟军,静物,战地记者
+id,description,DoF,Weapon,Effect,RedArmy,BlueArmy,AllyArmy,Stationary,WarReporter
+1,山区战场环境,dof.xml,tables/weapon.csv,tables/effect.csv,tables/redarmy.csv,tables/bluearmy.csv,tables/allyarmy.csv,tables/stationary.csv,tables/warreporter.csv

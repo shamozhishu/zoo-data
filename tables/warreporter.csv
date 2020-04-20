@@ -1,0 +1,5 @@
+战地记者编号,描述,脚本,视口左侧比例,视口右侧比例,视口底部比例,视口顶部比例,跟踪实体编号,跟踪实体类型
+id,description,script,ratio_left,ratio_right,ratio_bottom,ratio_top,track_entity_id,track_entity_type
+0,主视图,,0,1,0.5,1,1,Weapon
+1,靶标视图,,0,0.5,0,0.5,1,BlueArmy
+2,导引头视图,,0.5,1,0,0.5,,
