@@ -1,3 +1,3 @@
-静物编号,描述,脚本,模型文件
-id,description,script,model_file
-1,地形,,terrain/MalaysiaFlt/malaysia.flt
+编号,描述,脚本,位置X,位置Y,位置Z,旋转H,旋转P,旋转R,缩放X,缩放Y,缩放Z,可见性,挂载实体,分支标记,模型文件,音效文件,轨迹文件
+id,description,script,x,y,z,heading,pitch,roll,sx,sy,sz,visible,parent,branch_tag,model_file,sound_file,traj_file
+1,地形,,0,0,0,0,0,0,1,1,1,1,,1,terrain/alashan/alashanNew.ive,,
