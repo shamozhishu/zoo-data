@@ -1,8 +1,0 @@
-编号,描述,脚本,位置X,位置Y,位置Z,旋转H,旋转P,旋转R,缩放X,缩放Y,缩放Z,可见性,模型文件,挂载实体,分支标记,音效文件,轨迹文件
-id,description,script,x,y,z,heading,pitch,roll,sx,sy,sz,visible,model_file,parent,branch_tag,sound_file,traj_file
-1,坦克,,0,8000,0,-90,0,0,1,1,1,1,object/T72/T72.flt,MISSILECOORD,1,,
-2,干扰接收设备,,0.022203,0.394058,1.891647,0,0,0,1,1,1,1,object/jammer/jammer.flt,BlueArmy:4,0,,
-3,干扰设备,,-0.006,-1.269,2.527,0,0,0,0.000000001,0.000000001,0.000000001,0,object/jammer/jammer.flt,BlueArmy:4,0,,
-4,干扰车,,77.6753,17.5,0,0,0,0,1,1,1,1,object/jammerVehicle/JammerVehicle.3DS,BlueArmy:1,0,,
-5,干扰位置,,36.842,68.421,0,0,0,0,1,1,1,1,Invisible_Node,BlueArmy:1,0,,
-6,目标损毁,,0,0,0,0,0,0,1,1,1,0,object/T99/T99_death.flt,BlueArmy:1,0,,

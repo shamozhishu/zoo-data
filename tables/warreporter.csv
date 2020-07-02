@@ -1,5 +1,0 @@
-编号,描述,脚本,视口左侧比例,视口右侧比例,视口底部比例,视口顶部比例,跟踪实体
-id,description,script,ratio_left,ratio_right,ratio_bottom,ratio_top,track_entity
-0,主视图,,0,1,0.5,1,Weapon:1
-1,靶标视图,,0,0.5,0,0.5,BlueArmy:1
-2,导引头视图,,0.5,1,0,0.5,
