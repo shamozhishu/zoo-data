@@ -5,7 +5,8 @@
 
   "component": [
     {
-      "type": "Environment"
+      "type": "Environment",
+      "impl": "EnvironmentImpl"
     }
   ],
 
@@ -18,11 +19,13 @@
       "component": [
         {
           "type": "Behavior",
+          "impl": null,
           "script": null
         },
 
         {
           "type": "DoF",
+          "impl": "DoFImpl",
           "x": 0,
           "y": 0,
           "z": 50,
@@ -38,17 +41,20 @@
 
         {
           "type": "Model",
+          "impl": "ModelImpl",
           "visible": true,
           "model_file": "object/missile/missile.flt"
         },
 
         {
           "type": "Sound",
+          "impl": null,
           "sound_file": null
         },
 
         {
           "type": "Animator",
+          "impl": null,
           "traj_file": "traj/missile.txt"
         }
       ]
@@ -62,11 +68,13 @@
       "component": [
         {
           "type": "Behavior",
+          "impl": null,
           "script": null
         },
 
         {
           "type": "DoF",
+          "impl": "DoFImpl",
           "x": 0,
           "y": 1.8,
           "z": 0,
@@ -82,17 +90,20 @@
 
         {
           "type": "Model",
+          "impl": "ModelImpl",
           "visible": false,
           "model_file": "Invisible_Node"
         },
 
         {
           "type": "Sound",
+          "impl": null,
           "sound_file": null
         },
 
         {
           "type": "Animator",
+          "impl": null,
           "traj_file": null
         }
       ]
@@ -106,11 +117,13 @@
       "component": [
         {
           "type": "Behavior",
+          "impl": null,
           "script": null
         },
 
         {
           "type": "DoF",
+          "impl": "DoFImpl",
           "x": 0,
           "y": -2,
           "z": 0,
@@ -126,17 +139,20 @@
 
         {
           "type": "Model",
+          "impl": "ModelImpl",
           "visible": false,
           "model_file": "TailFlame"
         },
 
         {
           "type": "Sound",
+          "impl": null,
           "sound_file": "sound/flying_missl.wav"
         },
 
         {
           "type": "Animator",
+          "impl": null,
           "traj_file": null
         }
       ]
@@ -150,11 +166,13 @@
       "component": [
         {
           "type": "Behavior",
+          "impl": null,
           "script": null
         },
 
         {
           "type": "DoF",
+          "impl": "DoFImpl",
           "x": 0,
           "y": 0,
           "z": 0,
@@ -170,17 +188,20 @@
 
         {
           "type": "Model",
+          "impl": "ModelImpl",
           "visible": false,
           "model_file": "particleEffects/tank_fire.osg"
         },
 
         {
           "type": "Sound",
+          "impl": null,
           "sound_file": "sound/fire.wav"
         },
 
         {
           "type": "Animator",
+          "impl": null,
           "traj_file": null
         }
       ]
@@ -194,11 +215,13 @@
       "component": [
         {
           "type": "Behavior",
+          "impl": null,
           "script": null
         },
 
         {
           "type": "DoF",
+          "impl": "DoFImpl",
           "x": 0,
           "y": 0,
           "z": 0,
@@ -214,17 +237,20 @@
 
         {
           "type": "Model",
+          "impl": "ModelImpl",
           "visible": false,
           "model_file": "particleEffects/explosion_large.osg"
         },
 
         {
           "type": "Sound",
+          "impl": null,
           "sound_file": "sound/deepboom.wav"
         },
 
         {
           "type": "Animator",
+          "impl": null,
           "traj_file": null
         }
       ]
@@ -238,11 +264,13 @@
       "component": [
         {
           "type": "Behavior",
+          "impl": null,
           "script": null
         },
 
         {
           "type": "DoF",
+          "impl": "DoFImpl",
           "x": 0,
           "y": -4,
           "z": 0,
@@ -258,17 +286,20 @@
 
         {
           "type": "Model",
+          "impl": "ModelImpl",
           "visible": false,
           "model_file": "particleEffects/tank_dust.osg"
         },
 
         {
           "type": "Sound",
+          "impl": null,
           "sound_file": null
         },
 
         {
           "type": "Animator",
+          "impl": null,
           "traj_file": null
         }
       ]
@@ -282,11 +313,13 @@
       "component": [
         {
           "type": "Behavior",
+          "impl": null,
           "script": null
         },
 
         {
           "type": "DoF",
+          "impl": "DoFImpl",
           "x": 0,
           "y": 0,
           "z": 50,
@@ -302,17 +335,20 @@
 
         {
           "type": "Model",
+          "impl": "ModelImpl",
           "visible": true,
           "model_file": "object/z_19/z19.FLT"
         },
 
         {
           "type": "Sound",
+          "impl": null,
           "sound_file": "sound/heli_blades.wav"
         },
 
         {
           "type": "Animator",
+          "impl": null,
           "traj_file": null
         }
       ]
@@ -326,11 +362,13 @@
       "component": [
         {
           "type": "Behavior",
+          "impl": null,
           "script": null
         },
 
         {
           "type": "DoF",
+          "impl": "DoFImpl",
           "x": 0,
           "y": 8000,
           "z": 0,
@@ -346,17 +384,20 @@
 
         {
           "type": "Model",
+          "impl": "ModelImpl",
           "visible": true,
           "model_file": "object/T72/T72.flt"
         },
 
         {
           "type": "Sound",
+          "impl": null,
           "sound_file": null
         },
 
         {
           "type": "Animator",
+          "impl": null,
           "traj_file": null
         }
       ]
@@ -370,11 +411,13 @@
       "component": [
         {
           "type": "Behavior",
+          "impl": null,
           "script": null
         },
 
         {
           "type": "DoF",
+          "impl": "DoFImpl",
           "x": 0.022203,
           "y": 0.394058,
           "z": 1.891647,
@@ -390,17 +433,20 @@
 
         {
           "type": "Model",
+          "impl": "ModelImpl",
           "visible": true,
           "model_file": "object/jammer/jammer.flt"
         },
 
         {
           "type": "Sound",
+          "impl": null,
           "sound_file": null
         },
 
         {
           "type": "Animator",
+          "impl": null,
           "traj_file": null
         }
       ]
@@ -414,11 +460,13 @@
       "component": [
         {
           "type": "Behavior",
+          "impl": null,
           "script": null
         },
 
         {
           "type": "DoF",
+          "impl": "DoFImpl",
           "x": -0.006,
           "y": -1.269,
           "z": 2.527,
@@ -434,17 +482,20 @@
 
         {
           "type": "Model",
+          "impl": "ModelImpl",
           "visible": false,
           "model_file": "object/jammer/jammer.flt"
         },
 
         {
           "type": "Sound",
+          "impl": null,
           "sound_file": null
         },
 
         {
           "type": "Animator",
+          "impl": null,
           "traj_file": null
         }
       ]
@@ -458,11 +509,13 @@
       "component": [
         {
           "type": "Behavior",
+          "impl": null,
           "script": null
         },
 
         {
           "type": "DoF",
+          "impl": "DoFImpl",
           "x": 77.6753,
           "y": 17.5,
           "z": 0,
@@ -478,17 +531,20 @@
 
         {
           "type": "Model",
+          "impl": "ModelImpl",
           "visible": true,
           "model_file": "object/jammerVehicle/JammerVehicle.3DS"
         },
 
         {
           "type": "Sound",
+          "impl": null,
           "sound_file": null
         },
 
         {
           "type": "Animator",
+          "impl": null,
           "traj_file": null
         }
       ]
@@ -502,11 +558,13 @@
       "component": [
         {
           "type": "Behavior",
+          "impl": null,
           "script": null
         },
 
         {
           "type": "DoF",
+          "impl": "DoFImpl",
           "x": 36.842,
           "y": 68.421,
           "z": 0,
@@ -522,17 +580,20 @@
 
         {
           "type": "Model",
+          "impl": "ModelImpl",
           "visible": true,
           "model_file": "Invisible_Node"
         },
 
         {
           "type": "Sound",
+          "impl": null,
           "sound_file": null
         },
 
         {
           "type": "Animator",
+          "impl": null,
           "traj_file": null
         }
       ]
@@ -546,11 +607,13 @@
       "component": [
         {
           "type": "Behavior",
+          "impl": null,
           "script": null
         },
 
         {
           "type": "DoF",
+          "impl": "DoFImpl",
           "x": 0,
           "y": 0,
           "z": 0,
@@ -566,17 +629,20 @@
 
         {
           "type": "Model",
+          "impl": "ModelImpl",
           "visible": false,
           "model_file": "object/T99/T99_death.flt"
         },
 
         {
           "type": "Sound",
+          "impl": null,
           "sound_file": null
         },
 
         {
           "type": "Animator",
+          "impl": null,
           "traj_file": null
         }
       ]
@@ -590,11 +656,13 @@
       "component": [
         {
           "type": "Behavior",
+          "impl": null,
           "script": null
         },
 
         {
           "type": "DoF",
+          "impl": "DoFImpl",
           "x": 0,
           "y": 0,
           "z": 0,
@@ -610,17 +678,20 @@
 
         {
           "type": "Model",
+          "impl": "ModelImpl",
           "visible": true,
           "model_file": "terrain/alashan/alashanNew.ive"
         },
 
         {
           "type": "Sound",
+          "impl": null,
           "sound_file": null
         },
 
         {
           "type": "Animator",
+          "impl": null,
           "traj_file": null
         }
       ]
@@ -634,11 +705,13 @@
       "component": [
         {
           "type": "Behavior",
+          "impl": null,
           "script": null
         },
 
         {
           "type": "Camera",
+          "impl": "CameraImpl",
           "ratio_left": 0,
           "ratio_right": 0.5,
           "ratio_bottom": 0,
@@ -657,11 +730,13 @@
       "component": [
         {
           "type": "Behavior",
+          "impl": null,
           "script": null
         },
 
         {
           "type": "Camera",
+          "impl": "CameraImpl",
           "ratio_left": 0.5,
           "ratio_right": 1,
           "ratio_bottom": 0,
@@ -680,11 +755,13 @@
       "component": [
         {
           "type": "Behavior",
+          "impl": null,
           "script": null
         },
 
         {
           "type": "Camera",
+          "impl": "CameraImpl",
           "ratio_left": 0,
           "ratio_right": 0.25,
           "ratio_bottom": 0.75,
@@ -703,11 +780,13 @@
       "component": [
         {
           "type": "Behavior",
+          "impl": null,
           "script": null
         },
 
         {
           "type": "Camera",
+          "impl": "CameraImpl",
           "ratio_left": 0.25,
           "ratio_right": 0.5,
           "ratio_bottom": 0.75,
@@ -726,11 +805,13 @@
       "component": [
         {
           "type": "Behavior",
+          "impl": null,
           "script": null
         },
 
         {
           "type": "Camera",
+          "impl": "CameraImpl",
           "ratio_left": 0.5,
           "ratio_right": 0.75,
           "ratio_bottom": 0.75,
@@ -749,11 +830,13 @@
       "component": [
         {
           "type": "Behavior",
+          "impl": null,
           "script": null
         },
 
         {
           "type": "Camera",
+          "impl": "CameraImpl",
           "ratio_left": 0.75,
           "ratio_right": 1,
           "ratio_bottom": 0.75,

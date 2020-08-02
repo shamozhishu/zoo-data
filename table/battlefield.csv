@@ -1,0 +1,5 @@
+编号,描述,场景文件
+id,description,scene_file
+1,山区战场,scenes/seeker.json
+2,太平洋战场,scenes/sea_warfare.json
+3,沙漠战场,scenes/desert.json
