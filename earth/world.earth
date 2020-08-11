@@ -7,7 +7,7 @@
     </heightfield>
 	<image name="world_boundaries" driver="agglite" opacity="0.5">
 		<features name="world_shape" driver="ogr">
-			<url>tmp/world.shp</url>
+			<url>../tmp/world.shp</url>
 			<build_spatial_index>true</build_spatial_index>
 		</features>
 		<geometry_type>line</geometry_type>
@@ -24,7 +24,7 @@
 	</image>
 	<options>
 		<cache type="filesystem">
-			<path>tmp/file_cache</path>
+			<path>../tmp/file_cache</path>
 		</cache>
 	</options>
 </map>
