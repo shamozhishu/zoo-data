@@ -5,15 +5,15 @@
 	"component":	[{
 			"type":	"DoF",
 			"impl":	"DoFImpl",
-			"x":	120.000000,
+			"x":	88.000000,
 			"y":	30.000000,
-			"z":	5000.000000,
-			"heading":	270.000000,
+			"z":	9900.000000,
+			"heading":	0.000000,
 			"pitch":	0.000000,
 			"roll":	0.000000,
-			"sx":	30.000000,
-			"sy":	30.000000,
-			"sz":	30.000000,
+			"sx":	1.000000,
+			"sy":	1.000000,
+			"sz":	1.000000,
 			"lon_lat_height":	true,
 			"mount_entity_id":	null,
 			"mount_entity_breed":	null
@@ -53,15 +53,15 @@
 			"component":	[{
 					"type":	"DoF",
 					"impl":	"DoFImpl",
-					"x":	120.000000,
+					"x":	88.001000,
 					"y":	30.000000,
-					"z":	10000.000000,
+					"z":	10080.000000,
 					"heading":	0.000000,
 					"pitch":	0.000000,
 					"roll":	0.000000,
-					"sx":	1000.000000,
-					"sy":	1000.000000,
-					"sz":	1000.000000,
+					"sx":	1.000000,
+					"sy":	1.000000,
+					"sz":	1.000000,
 					"lon_lat_height":	true,
 					"mount_entity_id":	2,
 					"mount_entity_breed":	null
@@ -74,52 +74,85 @@
 		}, {
 			"id":	2,
 			"breed":	1,
-			"desc":	"哒哒娃",
+			"desc":	"飞机",
 			"component":	[{
 					"type":	"DoF",
 					"impl":	"DoFImpl",
-					"x":	1000.000000,
-					"y":	1000.000000,
-					"z":	1000.000000,
-					"heading":	0.000000,
+					"x":	0.000000,
+					"y":	50.000000,
+					"z":	50.000000,
+					"heading":	-180.000000,
 					"pitch":	0.000000,
 					"roll":	0.000000,
-					"sx":	20.000000,
-					"sy":	20.000000,
-					"sz":	20.000000,
+					"sx":	1.000000,
+					"sy":	1.000000,
+					"sz":	1.000000,
 					"lon_lat_height":	false,
-					"mount_entity_id":	1,
-					"mount_entity_breed":	1
+					"mount_entity_id":	3,
+					"mount_entity_breed":	3
 				}, {
 					"type":	"Model",
 					"impl":	"ModelImpl",
 					"visible":	true,
 					"model_file":	"model/cessna.osg"
+				}, {
+					"type":	"Behavior",
+					"impl":	null,
+					"script":	"script/aircraft.lua"
 				}]
 		}, {
 			"id":	3,
 			"breed":	1,
-			"desc":	"果果娃",
+			"desc":	"货车",
 			"component":	[{
 					"type":	"DoF",
 					"impl":	"DoFImpl",
-					"x":	0.000000,
-					"y":	1000.000000,
-					"z":	-100.000000,
+					"x":	87.998500,
+					"y":	30.000800,
+					"z":	10005.000000,
 					"heading":	0.000000,
 					"pitch":	0.000000,
 					"roll":	0.000000,
-					"sx":	100.000000,
-					"sy":	100.000000,
-					"sz":	100.000000,
-					"lon_lat_height":	false,
+					"sx":	1.000000,
+					"sy":	1.000000,
+					"sz":	1.000000,
+					"lon_lat_height":	true,
 					"mount_entity_id":	2,
-					"mount_entity_breed":	1
+					"mount_entity_breed":	null
 				}, {
 					"type":	"Model",
 					"impl":	"ModelImpl",
 					"visible":	true,
 					"model_file":	"model/dumptruck.osg"
+				}]
+		}, {
+			"id":	3,
+			"breed":	3,
+			"desc":	"卡车",
+			"component":	[{
+					"type":	"DoF",
+					"impl":	"DoFImpl",
+					"x":	87.999000,
+					"y":	30.000000,
+					"z":	10000.000000,
+					"heading":	90.000000,
+					"pitch":	0.000000,
+					"roll":	0.000000,
+					"sx":	1.000000,
+					"sy":	1.000000,
+					"sz":	1.000000,
+					"lon_lat_height":	true,
+					"mount_entity_id":	2,
+					"mount_entity_breed":	null
+				}, {
+					"type":	"Model",
+					"impl":	"ModelImpl",
+					"visible":	true,
+					"model_file":	"model/dumptruck.osg"
+				}, {
+					"type":	"Behavior",
+					"impl":	null,
+					"script":	"script/truck.lua"
 				}]
 		}]
 }

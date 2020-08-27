@@ -3,6 +3,20 @@
 	"breed":	null,
 	"desc":	"É³Ä®Õ½³¡",
 	"component":	[{
+			"type":	"Camera",
+			"impl":	"CameraImpl",
+			"bgcolor_red":	0,
+			"bgcolor_green":	0,
+			"bgcolor_blue":	0,
+			"bgcolor_alpha":	255,
+			"ratio_left":	0.000000,
+			"ratio_right":	1.000000,
+			"ratio_bottom":	0.000000,
+			"ratio_top":	1.000000,
+			"manipulator":	5,
+			"track_entity_id":	null,
+			"track_entity_breed":	null
+		}, {
 			"type":	"DoF",
 			"impl":	"DoFImpl",
 			"x":	0.000000,
@@ -17,20 +31,6 @@
 			"lon_lat_height":	false,
 			"mount_entity_id":	null,
 			"mount_entity_breed":	null
-		}, {
-			"type":	"Camera",
-			"impl":	"CameraImpl",
-			"bgcolor_red":	0,
-			"bgcolor_green":	0,
-			"bgcolor_blue":	0,
-			"bgcolor_alpha":	255,
-			"ratio_left":	0.000000,
-			"ratio_right":	1.000000,
-			"ratio_bottom":	0.000000,
-			"ratio_top":	1.000000,
-			"manipulator":	1,
-			"track_entity_id":	null,
-			"track_entity_breed":	null
 		}, {
 			"type":	"Model",
 			"impl":	"ModelImpl",
@@ -61,6 +61,10 @@
 					"impl":	"ModelImpl",
 					"visible":	true,
 					"model_file":	"model/dumptruck.osg"
+				}, {
+					"type":	"Behavior",
+					"impl":	null,
+					"script":	"script/truck.lua"
 				}]
 		}, {
 			"id":	1,
