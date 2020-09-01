@@ -3,20 +3,6 @@
 	"breed":	null,
 	"desc":	"É³Ä®Õ½³¡",
 	"component":	[{
-			"type":	"Camera",
-			"impl":	"CameraImpl",
-			"bgcolor_red":	0,
-			"bgcolor_green":	0,
-			"bgcolor_blue":	0,
-			"bgcolor_alpha":	255,
-			"ratio_left":	0.000000,
-			"ratio_right":	1.000000,
-			"ratio_bottom":	0.000000,
-			"ratio_top":	1.000000,
-			"manipulator":	5,
-			"track_entity_id":	null,
-			"track_entity_breed":	null
-		}, {
 			"type":	"DoF",
 			"impl":	"DoFImpl",
 			"x":	0.000000,
@@ -31,6 +17,33 @@
 			"lon_lat_height":	false,
 			"mount_entity_id":	null,
 			"mount_entity_breed":	null
+		}, {
+			"type":	"Camera",
+			"impl":	"CameraImpl",
+			"bgcolor_red":	0,
+			"bgcolor_green":	0,
+			"bgcolor_blue":	0,
+			"bgcolor_alpha":	255,
+			"ratio_left":	0.000000,
+			"ratio_right":	1.000000,
+			"ratio_bottom":	0.000000,
+			"ratio_top":	1.000000,
+			"manipulator":	5,
+			"track_entity_id":	null,
+			"track_entity_breed":	null,
+			"pass_0":	1,
+			"pass_1":	0,
+			"pass_2":	0,
+			"pass_3":	0,
+			"pass_4":	0,
+			"pass_5":	0,
+			"pass_6":	0,
+			"pass_7":	0
+		}, {
+			"type":	"Environment",
+			"impl":	"EnvironmentImpl",
+			"weather":	2,
+			"intensity":	0.166000
 		}, {
 			"type":	"Model",
 			"impl":	"ModelImpl",
