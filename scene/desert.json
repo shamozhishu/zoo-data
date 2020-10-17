@@ -20,6 +20,7 @@
 		}, {
 			"type":	"Camera",
 			"impl":	"CameraImpl",
+			"window_id": 0,
 			"bgcolor_red":	0,
 			"bgcolor_green":	0,
 			"bgcolor_blue":	0,
@@ -31,14 +32,18 @@
 			"manipulator":	5,
 			"track_entity_id":	null,
 			"track_entity_breed":	null,
-			"pass_0":	1,
-			"pass_1":	0,
-			"pass_2":	0,
-			"pass_3":	0,
-			"pass_4":	0,
-			"pass_5":	0,
-			"pass_6":	0,
-			"pass_7":	0
+			"pass_rt_0":	1,
+			"material_name":	"Default",
+			"shaders":	null,
+			"textures":	null,
+			"uniforms":	null,
+			"pass_rt_1":	0,
+			"pass_rt_2":	0,
+			"pass_rt_3":	0,
+			"pass_rt_4":	0,
+			"pass_rt_5":	0,
+			"pass_rt_6":	0,
+			"pass_rt_7":	0
 		}, {
 			"type":	"Environment",
 			"impl":	"EnvironmentImpl",
@@ -48,7 +53,13 @@
 			"type":	"Model",
 			"impl":	"ModelImpl",
 			"visible":	true,
-			"model_file":	"model/lz.osg"
+			"mesh_name":	"Default",
+			"model_file":	"model/lz.osg",
+			"params":	null,
+			"material_name":	"Bump mapping",
+			"shaders":	null,
+			"textures":	"0:material/texture/asteroid.png;1:material/texture/sky/nebula.jpg;",
+			"uniforms":	null
 		}],
 	"entity":	[{
 			"id":	1,
@@ -73,7 +84,13 @@
 					"type":	"Model",
 					"impl":	"ModelImpl",
 					"visible":	true,
-					"model_file":	"model/dumptruck.osg"
+					"mesh_name":	"Box",
+					"model_file":	"model/dumptruck.osg",
+					"params":	"center:0,0,0;lengthX:10;lengthY:1;lengthZ:1;",
+					"material_name":	"Default",
+					"shaders":	null,
+					"textures":	null,
+					"uniforms":	null
 				}, {
 					"type":	"Behavior",
 					"impl":	null,
@@ -102,7 +119,13 @@
 					"type":	"Model",
 					"impl":	"ModelImpl",
 					"visible":	true,
-					"model_file":	"model/glider.osg"
+					"mesh_name":	"Default",
+					"model_file":	"model/glider.osg",
+					"params":	null,
+					"material_name":	"Default",
+					"shaders":	null,
+					"textures":	null,
+					"uniforms":	null
 				}]
 		}]
 }

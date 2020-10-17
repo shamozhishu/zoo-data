@@ -3,6 +3,32 @@
 	"breed":	null,
 	"desc":	"太平洋战场",
 	"component":	[{
+			"type":	"Camera",
+			"impl":	"CameraImpl",
+			"window_id":	0,
+			"bgcolor_red":	0,
+			"bgcolor_green":	0,
+			"bgcolor_blue":	0,
+			"bgcolor_alpha":	255,
+			"ratio_left":	0.000000,
+			"ratio_right":	1.000000,
+			"ratio_bottom":	0.000000,
+			"ratio_top":	1.000000,
+			"manipulator":	0,
+			"track_entity_id":	null,
+			"track_entity_breed":	null,
+			"pass_rt_0":	1,
+			"material_name":	"Default",
+			"textures":	null,
+			"uniforms":	null,
+			"pass_rt_1":	0,
+			"pass_rt_2":	0,
+			"pass_rt_3":	0,
+			"pass_rt_4":	0,
+			"pass_rt_5":	0,
+			"pass_rt_6":	0,
+			"pass_rt_7":	0
+		}, {
 			"type":	"DoF",
 			"impl":	"DoFImpl",
 			"x":	88.000000,
@@ -18,20 +44,6 @@
 			"mount_entity_id":	null,
 			"mount_entity_breed":	null
 		}, {
-			"type":	"Camera",
-			"impl":	"CameraImpl",
-			"bgcolor_red":	0,
-			"bgcolor_green":	0,
-			"bgcolor_blue":	0,
-			"bgcolor_alpha":	255,
-			"ratio_left":	0.000000,
-			"ratio_right":	1.000000,
-			"ratio_bottom":	0.000000,
-			"ratio_top":	1.000000,
-			"manipulator":	0,
-			"track_entity_id":	null,
-			"track_entity_breed":	null
-		}, {
 			"type":	"Earth",
 			"impl":	"EarthImpl",
 			"earth_file":	"earth/world.earth",
@@ -44,9 +56,44 @@
 			"type":	"Model",
 			"impl":	"ModelImpl",
 			"visible":	true,
-			"model_file":	"model/lz.osg"
+			"mesh_name":	"Default",
+			"model_file":	"model/lz.osg",
+			"params":	null,
+			"material_name":	"Default",
+			"textures":	null,
+			"uniforms":	null
 		}],
 	"entity":	[{
+			"id":	9,
+			"breed":	9,
+			"desc":	"战斗机",
+			"component":	[{
+					"type":	"DoF",
+					"impl":	"DoFImpl",
+					"x":	10000.000000,
+					"y":	10000.000000,
+					"z":	10000.000000,
+					"heading":	0.000000,
+					"pitch":	0.000000,
+					"roll":	0.000000,
+					"sx":	10.000000,
+					"sy":	10.000000,
+					"sz":	10.000000,
+					"lon_lat_height":	false,
+					"mount_entity_id":	2,
+					"mount_entity_breed":	null
+				}, {
+					"type":	"Model",
+					"impl":	"ModelImpl",
+					"visible":	true,
+					"mesh_name":	"Default",
+					"model_file":	"tmp/JJH_Models/F16/f16cn.flt",
+					"params":	null,
+					"material_name":	"Default",
+					"textures":	null,
+					"uniforms":	null
+				}]
+		}, {
 			"id":	1,
 			"breed":	1,
 			"desc":	"滑翔机",
@@ -69,7 +116,12 @@
 					"type":	"Model",
 					"impl":	"ModelImpl",
 					"visible":	true,
-					"model_file":	"model/glider.osg"
+					"mesh_name":	"Default",
+					"model_file":	"model/glider.osg",
+					"params":	null,
+					"material_name":	"Default",
+					"textures":	null,
+					"uniforms":	null
 				}]
 		}, {
 			"id":	2,
@@ -94,7 +146,12 @@
 					"type":	"Model",
 					"impl":	"ModelImpl",
 					"visible":	true,
-					"model_file":	"model/cessna.osg"
+					"mesh_name":	"Default",
+					"model_file":	"model/cessna.osg",
+					"params":	null,
+					"material_name":	"Default",
+					"textures":	null,
+					"uniforms":	null
 				}, {
 					"type":	"Behavior",
 					"impl":	null,
@@ -123,7 +180,12 @@
 					"type":	"Model",
 					"impl":	"ModelImpl",
 					"visible":	true,
-					"model_file":	"model/dumptruck.osg"
+					"mesh_name":	"Default",
+					"model_file":	"model/dumptruck.osg",
+					"params":	null,
+					"material_name":	"Default",
+					"textures":	null,
+					"uniforms":	null
 				}]
 		}, {
 			"id":	3,
@@ -148,7 +210,12 @@
 					"type":	"Model",
 					"impl":	"ModelImpl",
 					"visible":	true,
-					"model_file":	"model/dumptruck.osg"
+					"mesh_name":	"Default",
+					"model_file":	"model/dumptruck.osg",
+					"params":	null,
+					"material_name":	"Default",
+					"textures":	null,
+					"uniforms":	null
 				}, {
 					"type":	"Behavior",
 					"impl":	null,

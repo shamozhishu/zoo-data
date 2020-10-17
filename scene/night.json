@@ -5,6 +5,7 @@
 	"component":	[{
 			"type":	"Camera",
 			"impl":	"CameraImpl",
+			"window_id": 0,
 			"bgcolor_red":	0,
 			"bgcolor_green":	0,
 			"bgcolor_blue":	0,
