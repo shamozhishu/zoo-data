@@ -3,6 +3,32 @@
 	"breed":	null,
 	"desc":	"É³Ä®Õ½³¡",
 	"component":	[{
+			"type":	"Camera",
+			"impl":	"CameraImpl",
+			"window_id":	0,
+			"bgcolor_red":	0,
+			"bgcolor_green":	0,
+			"bgcolor_blue":	0,
+			"bgcolor_alpha":	255,
+			"ratio_left":	0.000000,
+			"ratio_right":	1.000000,
+			"ratio_bottom":	0.000000,
+			"ratio_top":	1.000000,
+			"manipulator":	5,
+			"track_entity_id":	null,
+			"track_entity_breed":	null,
+			"pass_rt_0":	1,
+			"material_name":	"Default",
+			"textures":	null,
+			"uniforms":	null,
+			"pass_rt_1":	0,
+			"pass_rt_2":	0,
+			"pass_rt_3":	0,
+			"pass_rt_4":	0,
+			"pass_rt_5":	0,
+			"pass_rt_6":	0,
+			"pass_rt_7":	0
+		}, {
 			"type":	"DoF",
 			"impl":	"DoFImpl",
 			"x":	0.000000,
@@ -18,37 +44,13 @@
 			"mount_entity_id":	null,
 			"mount_entity_breed":	null
 		}, {
-			"type":	"Camera",
-			"impl":	"CameraImpl",
-			"window_id": 0,
-			"bgcolor_red":	0,
-			"bgcolor_green":	0,
-			"bgcolor_blue":	0,
-			"bgcolor_alpha":	255,
-			"ratio_left":	0.000000,
-			"ratio_right":	1.000000,
-			"ratio_bottom":	0.000000,
-			"ratio_top":	1.000000,
-			"manipulator":	5,
-			"track_entity_id":	null,
-			"track_entity_breed":	null,
-			"pass_rt_0":	1,
-			"material_name":	"Default",
-			"shaders":	null,
-			"textures":	null,
-			"uniforms":	null,
-			"pass_rt_1":	0,
-			"pass_rt_2":	0,
-			"pass_rt_3":	0,
-			"pass_rt_4":	0,
-			"pass_rt_5":	0,
-			"pass_rt_6":	0,
-			"pass_rt_7":	0
-		}, {
 			"type":	"Environment",
 			"impl":	"EnvironmentImpl",
 			"weather":	2,
-			"intensity":	0.166000
+			"intensity":	0.166000,
+			"material_name":	"SkyBox",
+			"textures":	"0:material/texture/Cubemap_snow/posx.jpg;1:material/texture/Cubemap_snow/negx.jpg;2:material/texture/Cubemap_snow/posy.jpg;3:material/texture/Cubemap_snow/negy.jpg;4:material/texture/Cubemap_snow/posz.jpg;5:material/texture/Cubemap_snow/negz.jpg;",
+			"uniforms":	"0:0;1:0;2:0;3:0;4:0;5:0;"
 		}, {
 			"type":	"Model",
 			"impl":	"ModelImpl",
@@ -56,9 +58,8 @@
 			"mesh_name":	"Default",
 			"model_file":	"model/lz.osg",
 			"params":	null,
-			"material_name":	"Bump mapping",
-			"shaders":	null,
-			"textures":	"0:material/texture/asteroid.png;1:material/texture/sky/nebula.jpg;",
+			"material_name":	"Default",
+			"textures":	null,
 			"uniforms":	null
 		}],
 	"entity":	[{
@@ -87,9 +88,8 @@
 					"mesh_name":	"Box",
 					"model_file":	"model/dumptruck.osg",
 					"params":	"center:0,0,0;lengthX:10;lengthY:1;lengthZ:1;",
-					"material_name":	"Default",
-					"shaders":	null,
-					"textures":	null,
+					"material_name":	"Bump mapping",
+					"textures":	"0:material/texture/asteroid.png;1:material/texture/sky/nebula.jpg;",
 					"uniforms":	null
 				}, {
 					"type":	"Behavior",
@@ -123,7 +123,6 @@
 					"model_file":	"model/glider.osg",
 					"params":	null,
 					"material_name":	"Default",
-					"shaders":	null,
 					"textures":	null,
 					"uniforms":	null
 				}]
