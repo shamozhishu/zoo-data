@@ -1,0 +1,14 @@
+#¾°ÉîÐ§¹û
+material "Depth of field"
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 255 0 255
+			diffuse 0 255 0 255
+			specular 0 0 0 255
+			emissive 0 0 0 0
+		}
+	}
+}
