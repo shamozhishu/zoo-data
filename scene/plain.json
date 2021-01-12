@@ -1,7 +1,7 @@
 {
-	"id":	3,
+	"id":	5,
 	"breed":	0,
-	"desc":	"沙漠战场",
+	"desc":	"平原场景",
 	"component":	[{
 			"type":	"Camera",
 			"impl":	"CameraImpl",
@@ -33,30 +33,23 @@
 			"impl":	"DoFImpl",
 			"x":	0.000000,
 			"y":	0.000000,
-			"z":	0.000000,
+			"z":	-1000.000000,
 			"heading":	0.000000,
 			"pitch":	0.000000,
 			"roll":	0.000000,
-			"sx":	1.000000,
-			"sy":	1.000000,
-			"sz":	1.000000,
+			"sx":	10.000000,
+			"sy":	10.000000,
+			"sz":	10.000000,
 			"lon_lat_height":	false,
 			"mount_entity_id":	null,
 			"mount_entity_breed":	null
-		}, {
-			"type":	"Environment",
-			"impl":	"EnvironmentImpl",
-			"weather":	2,
-			"intensity":	0.166000,
-			"material_name":	"SkyBox",
-			"textures":	"0:material/texture/Cubemap_snow/posx.jpg;1:material/texture/Cubemap_snow/negx.jpg;2:material/texture/Cubemap_snow/posy.jpg;3:material/texture/Cubemap_snow/negy.jpg;4:material/texture/Cubemap_snow/posz.jpg;5:material/texture/Cubemap_snow/negz.jpg;",
-			"uniforms":	"0:0;1:0;2:0;3:0;4:0;5:0;"
 		}, {
 			"type":	"Model",
 			"impl":	"ModelImpl",
 			"visible":	true,
 			"mesh_name":	"Default",
 			"resource_file":	"model/lz.osg",
+			"enable_resource":	true,
 			"params":	null,
 			"material_name":	"Default",
 			"textures":	null,
@@ -65,66 +58,37 @@
 	"entity":	[{
 			"id":	1,
 			"breed":	1,
-			"desc":	"哒哒娃",
+			"desc":	"无人机",
 			"component":	[{
 					"type":	"DoF",
 					"impl":	"DoFImpl",
 					"x":	0.000000,
 					"y":	0.000000,
-					"z":	100.000000,
+					"z":	0.000000,
 					"heading":	0.000000,
 					"pitch":	0.000000,
 					"roll":	0.000000,
 					"sx":	1.000000,
 					"sy":	1.000000,
 					"sz":	1.000000,
-					"lon_lat_height":	false,
-					"mount_entity_id":	3,
+					"lon_lat_height":	true,
+					"mount_entity_id":	5,
 					"mount_entity_breed":	0
 				}, {
 					"type":	"Model",
 					"impl":	"ModelImpl",
 					"visible":	true,
-					"mesh_name":	"Box",
-					"resource_file":	"model/dumptruck.osg",
-					"params":	"center:0,0,0;lengthX:10;lengthY:1;lengthZ:1;",
-					"material_name":	"Bump mapping",
-					"textures":	"0:material/texture/asteroid.png;1:material/texture/sky/nebula.jpg;",
-					"uniforms":	null
-				}, {
-					"type":	"Behavior",
-					"impl":	null,
-					"script":	"script/truck.lua"
-				}]
-		}, {
-			"id":	1,
-			"breed":	2,
-			"desc":	"果果娃",
-			"component":	[{
-					"type":	"DoF",
-					"impl":	"DoFImpl",
-					"x":	20.000000,
-					"y":	0.000000,
-					"z":	20.000000,
-					"heading":	180.000000,
-					"pitch":	0.000000,
-					"roll":	0.000000,
-					"sx":	10.000000,
-					"sy":	10.000000,
-					"sz":	10.000000,
-					"lon_lat_height":	false,
-					"mount_entity_id":	1,
-					"mount_entity_breed":	1
-				}, {
-					"type":	"Model",
-					"impl":	"ModelImpl",
-					"visible":	true,
 					"mesh_name":	"Default",
-					"resource_file":	"model/glider.osg",
+					"resource_file":	"model/cessna.osg",
+					"enable_resource":	true,
 					"params":	null,
 					"material_name":	"Default",
 					"textures":	null,
 					"uniforms":	null
+				}, {
+					"type":	"Behavior",
+					"impl":	null,
+					"script":	"script/flight_control.lua"
 				}]
 		}]
 }

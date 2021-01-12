@@ -1,6 +1,9 @@
-编号,描述,场景文件,仿真就绪,仿真执行,仿真暂停
-id,description,scene_file,ready_script,running_script,paused_script
-1,山区战场,scene/seeker.json,script/hill_ready.lua,script/hill_running.lua,script/hill_paused.lua
-2,海洋战场,scene/sea_warfare.json,script/ocean_ready.lua,script/ocean_running.lua,script/ocean_paused.lua
-3,沙漠战场,scene/desert.json,script/desert_ready.lua,script/desert_running.lua,script/desert_paused.lua
-4,午夜战场,scene/night.json,,,
+编号,场景（0-三维地形；1-三维地球；2-二维地图）,描述,场景文件,仿真脚本
+id,breed,description,scene_file,script_file
+1,0,山区战场,scene/seeker.json,script/hill_scene.lua
+2,1,海洋战场,scene/sea_warfare.json,script/ocean_scene.lua
+3,0,沙漠战场,scene/desert.json,script/desert_scene.lua
+4,1,午夜战场,scene/night.json,
+5,0,平原场景,scene/plain.json,
+6,2,世界地图,scene/world_map.json,
+7,1,测试场景,scene/test_scene.json,

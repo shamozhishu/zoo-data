@@ -1,11 +1,11 @@
 {
 	"id":	1,
-	"breed":	null,
+	"breed":	0,
 	"desc":	"山区战场",
 	"component":	[{
 			"type":	"Camera",
 			"impl":	"CameraImpl",
-			"window_id": 0,
+			"window_id":	0,
 			"bgcolor_red":	0,
 			"bgcolor_green":	0,
 			"bgcolor_blue":	0,
@@ -14,11 +14,13 @@
 			"ratio_right":	1.000000,
 			"ratio_bottom":	0.000000,
 			"ratio_top":	1.000000,
-			"manipulator":	5,
+			"manipulator":	0,
 			"track_entity_id":	null,
 			"track_entity_breed":	null,
 			"pass_rt_0":	1,
 			"material_name":	"Default",
+			"textures":	null,
+			"uniforms":	null,
 			"pass_rt_1":	0,
 			"pass_rt_2":	0,
 			"pass_rt_3":	0,
@@ -45,8 +47,13 @@
 			"type":	"Model",
 			"impl":	"ModelImpl",
 			"visible":	true,
-			"model_file":	"tmp/Pingyuan_Guanzhong_RealFlat_L10/Pingyuan_Guanzhong_L10.ive",
-			"material_name":	"Default"
+			"mesh_name":	"Default",
+			"resource_file":	"tmp/Pingyuan_Guanzhong_RealFlat_L10/Pingyuan_Guanzhong_L10.ive",
+			"enable_resource":	true,
+			"params":	null,
+			"material_name":	"Default",
+			"textures":	null,
+			"uniforms":	null
 		}],
 	"entity":	[{
 			"id":	1,
@@ -66,13 +73,18 @@
 					"sz":	1.000000,
 					"lon_lat_height":	false,
 					"mount_entity_id":	1,
-					"mount_entity_breed":	null
+					"mount_entity_breed":	0
 				}, {
 					"type":	"Model",
 					"impl":	"ModelImpl",
 					"visible":	true,
-					"model_file":	"tmp/YLJC_JX_L20/YL_L20.ive",
-					"material_name":	"Default"
+					"mesh_name":	"Default",
+					"resource_file":	"tmp/YLJC_JX_L20/YL_L20.ive",
+					"enable_resource":	true,
+					"params":	null,
+					"material_name":	"Default",
+					"textures":	null,
+					"uniforms":	null
 				}]
 		}, {
 			"id":	2,
@@ -92,13 +104,49 @@
 					"sz":	1.000000,
 					"lon_lat_height":	false,
 					"mount_entity_id":	1,
-					"mount_entity_breed":	null
+					"mount_entity_breed":	0
 				}, {
 					"type":	"Model",
 					"impl":	"ModelImpl",
 					"visible":	true,
-					"model_file":	"tmp/YL_Airport/YL_NOWP.flt",
-					"material_name":	"Default"
+					"mesh_name":	"Default",
+					"resource_file":	"tmp/YL_Airport/YL_NOWP.flt",
+					"enable_resource":	true,
+					"params":	null,
+					"material_name":	"Default",
+					"textures":	null,
+					"uniforms":	null
+				}]
+		}, {
+			"id":	1,
+			"breed":	2,
+			"desc":	"EF2000",
+			"component":	[{
+					"type":	"DoF",
+					"impl":	"DoFImpl",
+					"x":	83091.000000,
+					"y":	194301.000000,
+					"z":	1000.000000,
+					"heading":	-50.000000,
+					"pitch":	0.000000,
+					"roll":	0.000000,
+					"sx":	3.000000,
+					"sy":	3.000000,
+					"sz":	3.000000,
+					"lon_lat_height":	false,
+					"mount_entity_id":	1,
+					"mount_entity_breed":	0
+				}, {
+					"type":	"Model",
+					"impl":	"ModelImpl",
+					"visible":	true,
+					"mesh_name":	"Default",
+					"resource_file":	"tmp/Aircraft_model/EF2000_FLT/EF2000.flt",
+					"enable_resource":	true,
+					"params":	null,
+					"material_name":	"Default",
+					"textures":	null,
+					"uniforms":	null
 				}]
 		}]
 }

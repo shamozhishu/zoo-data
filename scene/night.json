@@ -1,6 +1,6 @@
 {
 	"id":	4,
-	"breed":	null,
+	"breed":	1,
 	"desc":	"ÎçÒ¹Õ½³¡",
 	"component":	[{
 			"type":	"Camera",
@@ -68,12 +68,12 @@
 					"sz":	10.000000,
 					"lon_lat_height":	false,
 					"mount_entity_id":	4,
-					"mount_entity_breed":	null
+					"mount_entity_breed":	1
 				}, {
 					"type":	"Model",
 					"impl":	"ModelImpl",
 					"visible":	true,
-					"model_file":	"tmp/JJH_Models/ZK_TZCL_MB/JZ_4.flt"
+					"resource_file":	"tmp/JJH_Models/ZK_TZCL_MB/JZ_4.flt"
 				}]
 		}, {
 			"id":	1,
@@ -93,12 +93,12 @@
 					"sz":	10.000000,
 					"lon_lat_height":	true,
 					"mount_entity_id":	4,
-					"mount_entity_breed":	null
+					"mount_entity_breed":	1
 				}, {
 					"type":	"Model",
 					"impl":	"ModelImpl",
 					"visible":	true,
-					"model_file":	"tmp/JJH_Models/DD/YJ63/63daiJinqi.FLT"
+					"resource_file":	"tmp/JJH_Models/DD/YJ63/63daiJinqi.FLT"
 				}]
 		}, {
 			"id":	2,
@@ -118,12 +118,12 @@
 					"sz":	10.000000,
 					"lon_lat_height":	true,
 					"mount_entity_id":	4,
-					"mount_entity_breed":	null
+					"mount_entity_breed":	1
 				}, {
 					"type":	"Model",
 					"impl":	"ModelImpl",
 					"visible":	true,
-					"model_file":	"tmp/JJH_Models/LJD/HQ12/HQ12.FLT"
+					"resource_file":	"tmp/JJH_Models/LJD/HQ12/HQ12.FLT"
 				}]
 		}, {
 			"id":	3,
@@ -143,16 +143,16 @@
 					"sz":	3.000000,
 					"lon_lat_height":	true,
 					"mount_entity_id":	4,
-					"mount_entity_breed":	null
+					"mount_entity_breed":	1
 				}, {
 					"type":	"Model",
 					"impl":	"ModelImpl",
 					"visible":	true,
-					"model_file":	"tmp/JJH_Models/Radar/Radar2.flt"
+					"resource_file":	"tmp/JJH_Models/Radar/Radar2.flt"
 				}]
 		}, {
 			"id":	4,
-			"breed":	1,
+			"breed":	9,
 			"desc":	"Ì¹¿Ë",
 			"component":	[{
 					"type":	"DoF",
@@ -168,12 +168,12 @@
 					"sz":	10.000000,
 					"lon_lat_height":	true,
 					"mount_entity_id":	4,
-					"mount_entity_breed":	null
+					"mount_entity_breed":	1
 				}, {
 					"type":	"Model",
 					"impl":	"ModelImpl",
 					"visible":	true,
-					"model_file":	"tmp/JJH_Models/Russia_T90/RussiaT90.flt"
+					"resource_file":	"tmp/JJH_Models/Russia_T90/RussiaT90.flt"
 				}]
 		}, {
 			"id":	5,
@@ -193,12 +193,12 @@
 					"sz":	10.000000,
 					"lon_lat_height":	true,
 					"mount_entity_id":	4,
-					"mount_entity_breed":	null
+					"mount_entity_breed":	1
 				}, {
 					"type":	"Model",
 					"impl":	"ModelImpl",
 					"visible":	true,
-					"model_file":	"tmp/JJH_Models/WX/Clementine.FLT"
+					"resource_file":	"tmp/JJH_Models/WX/Clementine.FLT"
 				}]
 		}, {
 			"id":	6,
@@ -218,12 +218,12 @@
 					"sz":	10.000000,
 					"lon_lat_height":	true,
 					"mount_entity_id":	4,
-					"mount_entity_breed":	null
+					"mount_entity_breed":	1
 				}, {
 					"type":	"Model",
 					"impl":	"ModelImpl",
 					"visible":	true,
-					"model_file":	"tmp/JJH_Models/ZK_TZCL_MB/JZ_5.flt"
+					"resource_file":	"tmp/JJH_Models/ZK_TZCL_MB/JZ_5.flt"
 				}]
 		}, {
 			"id":	7,
@@ -243,12 +243,12 @@
 					"sz":	10.000000,
 					"lon_lat_height":	true,
 					"mount_entity_id":	4,
-					"mount_entity_breed":	null
+					"mount_entity_breed":	1
 				}, {
 					"type":	"Model",
 					"impl":	"ModelImpl",
 					"visible":	true,
-					"model_file":	"tmp/JJH_Models/ZK_TZCL_MB/JZ_1.flt"
+					"resource_file":	"tmp/JJH_Models/ZK_TZCL_MB/JZ_1.flt"
 				}]
 		}, {
 			"id":	8,
@@ -268,12 +268,12 @@
 					"sz":	10.000000,
 					"lon_lat_height":	false,
 					"mount_entity_id":	4,
-					"mount_entity_breed":	null
+					"mount_entity_breed":	1
 				}, {
 					"type":	"Model",
 					"impl":	"ModelImpl",
 					"visible":	true,
-					"model_file":	"tmp/JJH_Models/ZK_TZCL_MB/JZ_3.flt"
+					"resource_file":	"tmp/JJH_Models/ZK_TZCL_MB/JZ_3.flt"
 				}]
 		}, {
 			"id":	10,
@@ -293,12 +293,12 @@
 					"sz":	10.000000,
 					"lon_lat_height":	false,
 					"mount_entity_id":	4,
-					"mount_entity_breed":	null
+					"mount_entity_breed":	1
 				}, {
 					"type":	"Model",
 					"impl":	"ModelImpl",
 					"visible":	true,
-					"model_file":	"tmp/JJH_Models/ZK_TZCL_MB/Tatai.flt"
+					"resource_file":	"tmp/JJH_Models/ZK_TZCL_MB/Tatai.flt"
 				}]
 		}, {
 			"id":	11,
@@ -318,12 +318,12 @@
 					"sz":	10.000000,
 					"lon_lat_height":	false,
 					"mount_entity_id":	4,
-					"mount_entity_breed":	null
+					"mount_entity_breed":	1
 				}, {
 					"type":	"Model",
 					"impl":	"ModelImpl",
 					"visible":	true,
-					"model_file":	"tmp/JJH_Models/ZK_TZCL_MB/WT_2.flt"
+					"resource_file":	"tmp/JJH_Models/ZK_TZCL_MB/WT_2.flt"
 				}]
 		}, {
 			"id":	12,
@@ -343,12 +343,12 @@
 					"sz":	10.000000,
 					"lon_lat_height":	false,
 					"mount_entity_id":	4,
-					"mount_entity_breed":	null
+					"mount_entity_breed":	1
 				}, {
 					"type":	"Model",
 					"impl":	"ModelImpl",
 					"visible":	true,
-					"model_file":	"tmp/JJH_Models/ZK_TZCL_MB/W_Weitong.flt"
+					"resource_file":	"tmp/JJH_Models/ZK_TZCL_MB/W_Weitong.flt"
 				}]
 		}]
 }

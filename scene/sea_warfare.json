@@ -1,6 +1,6 @@
 {
 	"id":	2,
-	"breed":	null,
+	"breed":	1,
 	"desc":	"太平洋战场",
 	"component":	[{
 			"type":	"Camera",
@@ -57,7 +57,7 @@
 			"impl":	"ModelImpl",
 			"visible":	true,
 			"mesh_name":	"Default",
-			"model_file":	"model/lz.osg",
+			"resource_file":	"model/lz.osg",
 			"params":	null,
 			"material_name":	"Default",
 			"textures":	null,
@@ -81,13 +81,13 @@
 					"sz":	10.000000,
 					"lon_lat_height":	false,
 					"mount_entity_id":	2,
-					"mount_entity_breed":	null
+					"mount_entity_breed":	1
 				}, {
 					"type":	"Model",
 					"impl":	"ModelImpl",
 					"visible":	true,
 					"mesh_name":	"Default",
-					"model_file":	"tmp/JJH_Models/F16/f16cn.flt",
+					"resource_file":	"tmp/JJH_Models/F16/f16cn.flt",
 					"params":	null,
 					"material_name":	"Default",
 					"textures":	null,
@@ -111,13 +111,13 @@
 					"sz":	1.000000,
 					"lon_lat_height":	true,
 					"mount_entity_id":	2,
-					"mount_entity_breed":	null
+					"mount_entity_breed":	1
 				}, {
 					"type":	"Model",
 					"impl":	"ModelImpl",
 					"visible":	true,
 					"mesh_name":	"Default",
-					"model_file":	"model/glider.osg",
+					"resource_file":	"model/glider.osg",
 					"params":	null,
 					"material_name":	"Default",
 					"textures":	null,
@@ -125,7 +125,7 @@
 				}]
 		}, {
 			"id":	2,
-			"breed":	1,
+			"breed":	2,
 			"desc":	"飞机",
 			"component":	[{
 					"type":	"DoF",
@@ -147,7 +147,7 @@
 					"impl":	"ModelImpl",
 					"visible":	true,
 					"mesh_name":	"Default",
-					"model_file":	"model/cessna.osg",
+					"resource_file":	"model/cessna.osg",
 					"params":	null,
 					"material_name":	"Default",
 					"textures":	null,
@@ -175,13 +175,13 @@
 					"sz":	1.000000,
 					"lon_lat_height":	true,
 					"mount_entity_id":	2,
-					"mount_entity_breed":	null
+					"mount_entity_breed":	1
 				}, {
 					"type":	"Model",
 					"impl":	"ModelImpl",
 					"visible":	true,
 					"mesh_name":	"Default",
-					"model_file":	"model/dumptruck.osg",
+					"resource_file":	"model/dumptruck.osg",
 					"params":	null,
 					"material_name":	"Default",
 					"textures":	null,
@@ -205,13 +205,13 @@
 					"sz":	1.000000,
 					"lon_lat_height":	true,
 					"mount_entity_id":	2,
-					"mount_entity_breed":	null
+					"mount_entity_breed":	1
 				}, {
 					"type":	"Model",
 					"impl":	"ModelImpl",
 					"visible":	true,
 					"mesh_name":	"Default",
-					"model_file":	"model/dumptruck.osg",
+					"resource_file":	"model/dumptruck.osg",
 					"params":	null,
 					"material_name":	"Default",
 					"textures":	null,
