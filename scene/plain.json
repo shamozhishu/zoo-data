@@ -31,6 +31,7 @@
 		}, {
 			"type":	"DoF",
 			"impl":	"DoFImpl",
+			"lla":	false,
 			"x":	0.000000,
 			"y":	0.000000,
 			"z":	-1000.000000,
@@ -40,7 +41,6 @@
 			"sx":	10.000000,
 			"sy":	10.000000,
 			"sz":	10.000000,
-			"lon_lat_height":	false,
 			"mount_entity_id":	null,
 			"mount_entity_breed":	null
 		}, {
@@ -62,16 +62,16 @@
 			"component":	[{
 					"type":	"DoF",
 					"impl":	"DoFImpl",
-					"x":	0.000000,
-					"y":	0.000000,
-					"z":	0.000000,
+					"lla":	true,
+					"lon":	0.000000,
+					"lat":	0.000000,
+					"alt":	0.000000,
 					"heading":	0.000000,
 					"pitch":	0.000000,
 					"roll":	0.000000,
 					"sx":	1.000000,
 					"sy":	1.000000,
 					"sz":	1.000000,
-					"lon_lat_height":	true,
 					"mount_entity_id":	5,
 					"mount_entity_breed":	0
 				}, {

@@ -16,16 +16,16 @@ end
 function Enter()
 end
 
-function GetInterpolated(me, other, d)
+function getInterpolated(me, other, d)
 	inv = 1.0 - d
 	return me * inv + other * d
 end
 
 function Update()
-	lon = GetInterpolated(way_point_lon[begin_pos], way_point_lon[end_pos], total)
-	lat = GetInterpolated(way_point_lat[begin_pos], way_point_lat[end_pos], total)
-	dof:setPos(lon, lat, 10000.0, true)
-	dof:setRot(dof:getHeading() + math.sin(os.time()), dof:getPitch(), dof:getRoll() + math.cos(os.time()))
+	lon = getInterpolated(way_point_lon[begin_pos], way_point_lon[end_pos], total)
+	lat = getInterpolated(way_point_lat[begin_pos], way_point_lat[end_pos], total)
+	dof:llaTo(lon, lat, 10000.0)
+	dof:rotateBy(math.sin(os.time()), 0, math.cos(os.time()))
 	total = total + offset * (os.time() - last_time)
 	last_time = os.time()
 	if total >= 1 then

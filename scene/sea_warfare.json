@@ -31,16 +31,16 @@
 		}, {
 			"type":	"DoF",
 			"impl":	"DoFImpl",
-			"x":	88.000000,
-			"y":	30.000000,
-			"z":	9900.000000,
+			"lla":	true,
+			"lon":	88.000000,
+			"lat":	30.000000,
+			"alt":	9900.000000,
 			"heading":	0.000000,
 			"pitch":	0.000000,
 			"roll":	0.000000,
 			"sx":	1.000000,
 			"sy":	1.000000,
 			"sz":	1.000000,
-			"lon_lat_height":	true,
 			"mount_entity_id":	null,
 			"mount_entity_breed":	null
 		}, {
@@ -58,18 +58,82 @@
 			"visible":	true,
 			"mesh_name":	"Default",
 			"resource_file":	"model/lz.osg",
+			"enable_resource":	true,
 			"params":	null,
 			"material_name":	"Default",
 			"textures":	null,
 			"uniforms":	null
 		}],
 	"entity":	[{
+			"id":	1,
+			"breed":	1,
+			"desc":	"滑翔机",
+			"component":	[{
+					"type":	"DoF",
+					"impl":	"DoFImpl",
+					"lla":	true,
+					"lon":	88.001000,
+					"lat":	30.000000,
+					"alt":	10080.000000,
+					"heading":	0.000000,
+					"pitch":	0.000000,
+					"roll":	0.000000,
+					"sx":	1.000000,
+					"sy":	1.000000,
+					"sz":	1.000000,
+					"mount_entity_id":	2,
+					"mount_entity_breed":	1
+				}, {
+					"type":	"Model",
+					"impl":	"ModelImpl",
+					"visible":	true,
+					"mesh_name":	"Default",
+					"resource_file":	"model/glider.osg",
+					"enable_resource":	true,
+					"params":	null,
+					"material_name":	"Default",
+					"textures":	null,
+					"uniforms":	null
+				}]
+		}, {
+			"id":	3,
+			"breed":	1,
+			"desc":	"货车",
+			"component":	[{
+					"type":	"DoF",
+					"impl":	"DoFImpl",
+					"lla":	true,
+					"lon":	87.998500,
+					"lat":	30.000800,
+					"alt":	10005.000000,
+					"heading":	0.000000,
+					"pitch":	0.000000,
+					"roll":	0.000000,
+					"sx":	1.000000,
+					"sy":	1.000000,
+					"sz":	1.000000,
+					"mount_entity_id":	2,
+					"mount_entity_breed":	1
+				}, {
+					"type":	"Model",
+					"impl":	"ModelImpl",
+					"visible":	true,
+					"mesh_name":	"Default",
+					"resource_file":	"model/dumptruck.osg",
+					"enable_resource":	true,
+					"params":	null,
+					"material_name":	"Default",
+					"textures":	null,
+					"uniforms":	null
+				}]
+		}, {
 			"id":	9,
 			"breed":	9,
 			"desc":	"战斗机",
 			"component":	[{
 					"type":	"DoF",
 					"impl":	"DoFImpl",
+					"lla":	false,
 					"x":	10000.000000,
 					"y":	10000.000000,
 					"z":	10000.000000,
@@ -79,7 +143,6 @@
 					"sx":	10.000000,
 					"sy":	10.000000,
 					"sz":	10.000000,
-					"lon_lat_height":	false,
 					"mount_entity_id":	2,
 					"mount_entity_breed":	1
 				}, {
@@ -88,36 +151,7 @@
 					"visible":	true,
 					"mesh_name":	"Default",
 					"resource_file":	"tmp/JJH_Models/F16/f16cn.flt",
-					"params":	null,
-					"material_name":	"Default",
-					"textures":	null,
-					"uniforms":	null
-				}]
-		}, {
-			"id":	1,
-			"breed":	1,
-			"desc":	"滑翔机",
-			"component":	[{
-					"type":	"DoF",
-					"impl":	"DoFImpl",
-					"x":	88.001000,
-					"y":	30.000000,
-					"z":	10080.000000,
-					"heading":	0.000000,
-					"pitch":	0.000000,
-					"roll":	0.000000,
-					"sx":	1.000000,
-					"sy":	1.000000,
-					"sz":	1.000000,
-					"lon_lat_height":	true,
-					"mount_entity_id":	2,
-					"mount_entity_breed":	1
-				}, {
-					"type":	"Model",
-					"impl":	"ModelImpl",
-					"visible":	true,
-					"mesh_name":	"Default",
-					"resource_file":	"model/glider.osg",
+					"enable_resource":	true,
 					"params":	null,
 					"material_name":	"Default",
 					"textures":	null,
@@ -130,6 +164,7 @@
 			"component":	[{
 					"type":	"DoF",
 					"impl":	"DoFImpl",
+					"lla":	false,
 					"x":	0.000000,
 					"y":	50.000000,
 					"z":	50.000000,
@@ -139,7 +174,6 @@
 					"sx":	1.000000,
 					"sy":	1.000000,
 					"sz":	1.000000,
-					"lon_lat_height":	false,
 					"mount_entity_id":	3,
 					"mount_entity_breed":	3
 				}, {
@@ -148,6 +182,7 @@
 					"visible":	true,
 					"mesh_name":	"Default",
 					"resource_file":	"model/cessna.osg",
+					"enable_resource":	true,
 					"params":	null,
 					"material_name":	"Default",
 					"textures":	null,
@@ -159,51 +194,21 @@
 				}]
 		}, {
 			"id":	3,
-			"breed":	1,
-			"desc":	"货车",
-			"component":	[{
-					"type":	"DoF",
-					"impl":	"DoFImpl",
-					"x":	87.998500,
-					"y":	30.000800,
-					"z":	10005.000000,
-					"heading":	0.000000,
-					"pitch":	0.000000,
-					"roll":	0.000000,
-					"sx":	1.000000,
-					"sy":	1.000000,
-					"sz":	1.000000,
-					"lon_lat_height":	true,
-					"mount_entity_id":	2,
-					"mount_entity_breed":	1
-				}, {
-					"type":	"Model",
-					"impl":	"ModelImpl",
-					"visible":	true,
-					"mesh_name":	"Default",
-					"resource_file":	"model/dumptruck.osg",
-					"params":	null,
-					"material_name":	"Default",
-					"textures":	null,
-					"uniforms":	null
-				}]
-		}, {
-			"id":	3,
 			"breed":	3,
 			"desc":	"卡车",
 			"component":	[{
 					"type":	"DoF",
 					"impl":	"DoFImpl",
-					"x":	87.999000,
-					"y":	30.000000,
-					"z":	10000.000000,
+					"lla":	false,
+					"x":	0.000000,
+					"y":	0.000000,
+					"z":	100.000000,
 					"heading":	90.000000,
 					"pitch":	0.000000,
 					"roll":	0.000000,
 					"sx":	1.000000,
 					"sy":	1.000000,
 					"sz":	1.000000,
-					"lon_lat_height":	true,
 					"mount_entity_id":	2,
 					"mount_entity_breed":	1
 				}, {
@@ -212,6 +217,7 @@
 					"visible":	true,
 					"mesh_name":	"Default",
 					"resource_file":	"model/dumptruck.osg",
+					"enable_resource":	true,
 					"params":	null,
 					"material_name":	"Default",
 					"textures":	null,
